@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link to="/#rides">E-SCOOTERS</Link>
           <Link to="/#450series">BE A FAMILY</Link>
           <Link to="/#investors">EXPLORE</Link>
-          <Link to="/testRide">Test Ride</Link>
+          <Link to="/testRide">TEST RIDE</Link>
           <Link to="/aboutUs">ABOUT</Link>
           <Link to="/blog">BLOG</Link>
           

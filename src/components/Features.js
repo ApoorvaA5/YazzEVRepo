@@ -111,14 +111,14 @@ const Features = () => {
   return (
     <section className="features">
       <div className="features-header">
-        <h2>All thrills. All electric.</h2>
+        <h2 id='electrical1'>All thrills. All electric.</h2>
         <p>
           Presenting all-new electric scooters from Yazz EV. Built to outperform both EV scooters and petrol scooters alike,
           with all the style, smarts, and speed you need.
         </p>
       </div>
 
-      <h3>Pick your Yazz EV</h3>
+      <h3 id="electrical2">Pick your Yazz EV</h3>
 
       <div className="features-grid">
         {models.map((model, index) => (

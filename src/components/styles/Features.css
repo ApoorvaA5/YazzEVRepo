@@ -71,7 +71,7 @@
   }
   
   .primary-btn {
-    background-color: black;
+    background-color: #DA0F15;
     color: white;
   }
   
@@ -82,7 +82,7 @@
   }
   
   .secondary-btn:hover {
-    background-color: black;
+    background-color: #DA0F15;
     color: white;
   }
   
@@ -113,7 +113,7 @@
   }
   
   .compare-btn:hover {
-    background-color: #6A6E6D;
+    background-color: #DA0F15;
   }
   
   /* Arrow styles */
@@ -121,7 +121,7 @@
     font-size: 2rem;
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 35%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.1);
     padding: 5px 15px;
@@ -139,4 +139,79 @@
   .arrow:hover {
     background-color: rgba(0, 0, 0, 0.3);
   }
-  
+
+  .arrow {
+    
+    color: red; /* Set arrow color to red */
+    cursor: pointer; /* Make sure the pointer changes when hovering */
+    font-size: 24px; /* Adjust size if needed */
+    user-select: none; /* Prevent text selection */
+    padding: 10px; /* Optional: Add padding for a larger clickable area */
+  }
+  .features-header h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    animation: fadeInScale 3s infinite ease-in-out;
+}
+
+.features-header p {
+    font-size: 1.25rem;
+    color: #6A6E6D;
+    margin-bottom: 40px;
+    animation: slideIn 3s infinite ease-in-out;
+}
+
+.animated-paragraph {
+  animation: transformParagraph 2s infinite; /* Apply the animation */
+}
+
+
+.animated-heading {
+  animation: transformHeading 2s infinite; /* Apply the animation */
+}
+
+/* Define the keyframes for the animation */
+@keyframes transformHeading {
+  0% {
+    transform: scale(1); /* Original size */
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    transform: scale(1.1); /* Scale up by 10% */
+    opacity: 0.8; /* Slightly transparent */
+  }
+  100% {
+    transform: scale(1); /* Return to original size */
+    opacity: 1; /* Fully visible */
+  }
+}
+.features-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.features-header h2, .features-header p {
+  animation: fadeInOut 2s infinite alternate; /* 2s animation */
+  opacity: 0; /* start as hidden */
+}
+
+@keyframes fadeInOut {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+#electrical1{
+  color:#0c6376;
+}
+#electrical2{
+  color:#0c6376;
+}

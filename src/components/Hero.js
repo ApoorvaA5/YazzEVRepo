@@ -46,8 +46,8 @@ const Hero = () => {
     <section className="hero-banner">
       {renderBackground()}
       <div className="hero-content">
-        <h1>Yazz EV </h1>
-        <p>Bring home a Yazz EV this festive season and enjoy benefits up to ₹25,000*</p>
+        <h1 id='EV1'>Yazz EV </h1>
+        <p id='EV2'>Bring home a Yazz EV this festive season and enjoy benefits up to ₹25,000*</p>
         <div className="hero-buttons">
           <button className="hero-button primary">Know more</button>
           <button className="hero-button secondary">Book a Test ride</button>

@@ -24,7 +24,7 @@ function App() {
                 <Hero />
                 <Features />
                 <div className="product-section">
-                  <h2 id ="productid">Our Products</h2>
+                
                   <div className="product-grid">
                     <ProductCard 
                       image="./assets/product1.png"  // Correct the path as needed
